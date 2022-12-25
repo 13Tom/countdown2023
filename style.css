@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Old+Standard+TT&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,900&family=Righteous&family=Rubik+Gemstones&family=Rubik+Vinyl&family=Ubuntu&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Poppins';
+    margin: 0;
+    background-image: url(./img/Phamarcy\ Shope\ \(5\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h1{
+    font-weight: bold;
+    font-size: 4rem;
+    margin-top: 2rem;
+    color: white;
+    
+}
+span{
+    font-size: 3rem;
+    font-weight: 4rem;
+    margin-left: 1rem;
+    color: white;
+    font-weight: bold;
+}
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.text{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+    font-weight: bold;
+    color: white;
+}
+.minutos{
+    margin-left: 2rem;
+}
